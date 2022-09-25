@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    width: 350px;
+    height: 500px;
+    margin: 50px auto;
+    background: url('./img/Bg.jpeg');
+    background-size: 100% auto;
+    background-position: center;
+    position: relative;
+    border-radius: 5px;
+    
+}
+
+.refresh{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+.imgGlobal {
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imgFilter {
+    filter: brightness(30%);
+}
+
+#storageBox {
+    height: 40px;
+    width: 280px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+h3{
+    text-align: center;
+    color: deepskyblue;
+}
